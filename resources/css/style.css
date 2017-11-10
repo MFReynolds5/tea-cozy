@@ -1,18 +1,34 @@
 .header {
   display: flex;
+  align-items: center;
   font-family: helvetica;
   font-size: 22px;
+  height: 69px;
   color: seashell;
   background-color: black;
   opacity: 0.9;
+  margin: 0px;
+}
+
+.logo img {
+  display: flex;
+  flex-shrink: 1;
+  height: 50px;
+  padding-left: 10px;
 }
 
 nav {
-  display: flex;
+  display: block;
   text-align: right;
   flex-grow: 1;
-  text-decoration: underline;
 }
+
+nav a {
+  color: seashell;
+  text-decoration: underline;
+  padding: 0px 10px;
+}
+
 .content {
   display: flex;
 }

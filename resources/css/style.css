@@ -1,0 +1,18 @@
+.header {
+  display: flex;
+  font-family: helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+nav {
+  display: flex;
+  text-align: right;
+  flex-grow: 1;
+  text-decoration: underline;
+}
+.content {
+  display: flex;
+}

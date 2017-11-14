@@ -43,6 +43,7 @@ nav a {
 
 .main {
   display: flex;
+  flex-direction: column;
   padding-top: 69px;
   margin: auto;
   width: 1200px;
@@ -72,4 +73,13 @@ nav a {
 h2, h3, h4 {
   margin: 0;
   padding: 10px;
+}
+
+.month {
+  display: flex;
+}
+
+.month img {
+  height: 200px;
+  width: 300px;
 }

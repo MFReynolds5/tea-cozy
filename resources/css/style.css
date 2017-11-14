@@ -1,6 +1,7 @@
 body {
   margin: 0px;
   font-family: helvetica;
+  font-size: 22px;
   color: seashell;
   background-color: black;
   opacity: 0.9;
@@ -73,6 +74,16 @@ nav a {
 h2, h3, h4 {
   margin: 0;
   padding: 10px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 33px;
+}
+
+h3 {
+  font-size: 1.17;
+  font-weight: bold;
 }
 
 .month {
@@ -85,24 +96,27 @@ h2, h3, h4 {
 }
 
 #locations {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  display: block;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
   height: 500px;
+  padding-top: 70px;
 }
 
 .boxes {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  flex-direction: row;
   padding-top: 15px;
+  text-align: center;
 }
 
 .box {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  width: 300px;
+  justify-content: center;
+  flex-basis: 280px;
+  background-color: black;
+  margin: 5px 20px;
+  opacity: 1.0;
+  padding: 10px;
 }
